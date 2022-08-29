@@ -1,0 +1,179 @@
+.container{
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 80px;
+}
+
+.container .contents{
+    margin: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: lighter;
+}
+
+.container .header_logo{
+    margin-left: 100px;
+    margin-right: 600px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/*end of first div css*/
+
+.second_container {
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 80px;
+}
+
+.second_container .box{
+    margin-left: 100px;
+}
+
+.second_container .box > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder; /*does this make a change*/
+}
+
+.second_container .box > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: -35px;
+}
+
+.box > img {
+    width: 800px;
+    height: 250px;
+}
+
+.sign {
+    border-radius: 5px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-style: solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -15px;
+}
+/*end of second div css*/
+
+.third_container {
+    text-align: center;
+}
+
+.third_container > h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.all_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.blue_box{
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px; 
+}
+
+.all_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.text {
+    width: 150px;
+    height: 100px;
+    margin-right: 50px; 
+    font-size: 18px;
+    color: black;
+}
+
+/*end of third div css*/
+
+.box_quote{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #e5e7eb;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic;
+    color: #1f2937;
+    display: inline-block;
+    text-align: left;
+}
+
+.thor{
+    text-align: right;
+    font-size: 10px;
+    color: #1f2937;
+    margin-top: -30px;
+}
+
+/*end of quote div css*/
+
+.inner_white {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.inner_blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blue{
+    background-color: #3882f6;
+    text-align: left;
+    margin: auto;
+}
+
+.blue > h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.blue > p{
+    color: #E5e7eb;
+    margin-top: -15px;
+}
+
+.blue .sign{
+    border-color: white;
+}
+
+/*end of inner white css*/
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
