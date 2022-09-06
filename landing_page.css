@@ -2,38 +2,50 @@
     display: flex;
     background-color: #1f2937;
     padding-bottom: 80px;
+    /*css tricks box model*/
+    justify-content: center;
+    
 }
 
 .container .contents{
-    margin: auto;
-    font-size: 18px;
+    font-size: 10px;
     color: #e5e7eb;
     font-weight: lighter;
+
+    padding-top: 35px;
+    margin-left: 30px;
+   
 }
 
 .container .header_logo{
-    margin-left: 100px;
-    margin-right: 600px;
+    margin-right: 450px;
     font-size: 24px;
     color: #F9FAF8;
+
 }
 
 /*end of first div css*/
 
 .second_container {
-    display: flex;
+    display: flex;/*play with this*/
     background-color: #1f2937;
     padding-bottom: 80px;
+    justify-content: center;
 }
+
 
 .second_container .box{
-    margin-left: 100px;
-}
+    /*margin-left: 20px;*/
+    justify-content: space-around;
+    width: 600px;
+    height:350px;
 
+}
 .second_container .box > h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder; /*does this make a change*/
+
 }
 
 .second_container .box > p {
@@ -43,11 +55,10 @@
 }
 
 .box > img {
-    width: 800px;
-    height: 250px;
+    width: 100%;
 }
 
-.sign {
+.sign { /*button*/
     border-radius: 5px;
     background-color: #3882f6;
     border-color: #3882f6;
@@ -58,6 +69,7 @@
     padding-right: 25px;
     margin-top: -15px;
 }
+
 /*end of second div css*/
 
 .third_container {
